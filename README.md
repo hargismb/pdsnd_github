@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+4/2/2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+This program dsplays bikeshare data for a six-month period, calculates statistics, and can also display raw data by month, day of week, both, or neither. It covers Wahsington, DC; New York City; and Chicago.
 
 ### Files used
-Include the files used
+just bikeshare.py for the program
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Programmed at the behest of Udacity's nanodegree program
