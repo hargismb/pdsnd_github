@@ -248,7 +248,7 @@ def raw_data(df):
                         #identify new starting row
                         start_row += chunksize
                         #ask again
-                        keep_going = input("Keep going? ")
+                        keep_going = input("Keep going? Enter yes or no.")
             except ValueError:
                 print("That's not a valid number! Please enter an integer.")
     else:
