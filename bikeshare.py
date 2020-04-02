@@ -238,7 +238,7 @@ def raw_data(df):
 
         while keep_going not in {'no', 'n'}:
             try:
-                chunksize = int(input("How many rows of data would you like to see at once? "))
+                chunksize = int(input("The data set is quite large. How many rows of data would you like to see at once? "))
                 if chunksize == 0:
                     print("I can't do that!")
                 elif chunksize != 0:
