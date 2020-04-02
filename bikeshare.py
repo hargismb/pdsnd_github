@@ -35,7 +35,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         try:
-            input_month = input("Which month do you want to know about? Type 'all' to hear about all months. ")
+            input_month = input("Which month do you want to know about? Type 'all' to hear about all six months. ")
             if input_month.lower() in {'january', 'february', 'march', 'april', 'may', 'june'}:
                 month = input_month.lower()
                 print("Okay, I'll tell you about {}.".format(month.title()))
@@ -54,7 +54,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         try:
-            input_day = input("Which day(s) of the week do you want to know about? Type 'all' to hear about all days. ")
+            input_day = input("Which day(s) of the week do you want to know about? Type 'all' to hear about all seven days. ")
             if input_day.lower() in {'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'}:
                 day = input_day.lower()
                 print("Okay, I'll tell you about {}s in {} in {}.".format(day.title(), month.title(), city.title()))
