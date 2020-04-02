@@ -9,7 +9,7 @@ This program dsplays bikeshare data for a six-month period, calculates statistic
 This is my second take, ideally without conflicts to merge.
 
 ### Files used
-just bikeshare.py for the program
+just bikeshare.py for the program  but I have csv files for the three cities' data
 
 ### Credits
 Programmed at the behest of Udacity's nanodegree program
